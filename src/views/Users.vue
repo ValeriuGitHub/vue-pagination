@@ -19,7 +19,7 @@
 
     <b-table striped hover :items="users">
       <template #cell(name)="data">
-        <router-link :to="`users/user/${data.value}`">
+        <router-link :to="`/user/${data.value}`">
           <div @click="shareData(data.index)">{{ data.value }}</div>
         </router-link>
       </template>

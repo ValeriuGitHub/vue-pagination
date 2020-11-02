@@ -16,7 +16,7 @@
         <div><b>bs:</b> {{ data.value.bs }}</div>
       </template>
     </b-table>
-    <router-link :to="'/users'">
+    <router-link :to="'/'">
       Back to users
     </router-link>
   </div>
